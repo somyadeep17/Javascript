@@ -15,4 +15,8 @@ function calculatecartprize (...num1){
 // console.log(calculatecartprize(200,300,5000,4000))
 
 const mynewArray = [200,300,400,500]
-function returnSecondvalue(getarray)
+function returnSecondvalue(getarray){
+return getarray[1]
+}
+
+console.log(returnSecondvalue(mynewArray))
